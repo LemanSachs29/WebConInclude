@@ -5,6 +5,6 @@
             <a href="">Sobre nosotros</a>
             <a href="">Preguntas frecuentes</a>
             <a href="">Privacidad</a>
-            <a href="">Contacto</a>
+            <a href="form.jsp">Contacto</a>
         </nav>
     </footer>
