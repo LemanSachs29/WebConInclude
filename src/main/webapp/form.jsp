@@ -5,10 +5,9 @@
     <%@page import="com.form_info"%>
     
     <%
-        // Instanciar la clase form_info
+        
         form_info formulario = new form_info();
         
-        // Establecer los valores usando los setters
        formulario.setTitulo_pagina("Formulario de Reclutamiento - Skynet");
        formulario.setDatos_personales("Datos Personales");
        formulario.setNombre("Nombre Completo:");
@@ -21,11 +20,13 @@
        formulario.setArea_op1("Estrategia de Defensa Cibernética");
        formulario.setArea_op2("Neutralización de Amenazas");
        formulario.setArea_op3("Operaciones Encubiertas");
+       formulario.setArea_op4("Manejo Avanzado de Drones y Armamento Automatizado");
        
        formulario.setExp_tec_avanzada("Experiencia con Tecnología Avanzada:");
        formulario.setExp_tec_avanzada_op1("Alta Compatibilidad con Sistemas Avanzados de IA");
        formulario.setExp_tec_avanzada_op2("Experto en Redes y Ciberdefensa");
        formulario.setExp_tec_avanzada_op3("Manejo Avanzado de Drones y Armamento Automatizado");
+       
        
        formulario.setCapacidades_fisicas("Capacidades Físicas y Operativas:");
        
