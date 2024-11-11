@@ -30,7 +30,6 @@
 
     <section class="valoraciones">
         <div class="valoraciones_container">
-            <%-- Recorrer el array de valoraciones usando un for en Java --%>
             <% 
                 for (int i = 0; i < valoraciones.length; i++) {
                     Opiniones opinion = valoraciones[i];
